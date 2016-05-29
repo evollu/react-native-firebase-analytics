@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AD1DC2B1CFA802F008C092E /* FIRAnalyticsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1DC2A1CFA802F008C092E /* FIRAnalyticsModule.m */; };
+		3AD1DC2B1CFA802F008C092E /* RNFIRAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1DC2A1CFA802F008C092E /* RNFIRAnalytics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNFIRAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNFIRAnalytics.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AD1DC291CFA802F008C092E /* FIRAnalyticsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRAnalyticsModule.h; sourceTree = "<group>"; };
-		3AD1DC2A1CFA802F008C092E /* FIRAnalyticsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIRAnalyticsModule.m; sourceTree = "<group>"; };
+		3AD1DC291CFA802F008C092E /* RNFIRAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFIRAnalytics.h; sourceTree = "<group>"; };
+		3AD1DC2A1CFA802F008C092E /* RNFIRAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFIRAnalytics.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +50,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				3AD1DC291CFA802F008C092E /* FIRAnalyticsModule.h */,
-				3AD1DC2A1CFA802F008C092E /* FIRAnalyticsModule.m */,
+				3AD1DC291CFA802F008C092E /* RNFIRAnalytics.h */,
+				3AD1DC2A1CFA802F008C092E /* RNFIRAnalytics.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			indentWidth = 2;
@@ -85,7 +85,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = Facebook;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -114,7 +114,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AD1DC2B1CFA802F008C092E /* FIRAnalyticsModule.m in Sources */,
+				3AD1DC2B1CFA802F008C092E /* RNFIRAnalytics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

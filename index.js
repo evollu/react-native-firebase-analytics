@@ -1,25 +1,23 @@
 'use strict';
 
 var React = require('react-native');
-var {
-    NativeModules
-} = React;
+var {NativeModules} = React;
 
-var FCMModule = NativeModules.FCMModule;
+var FIRAnalytics = NativeModules.RNFIRAnalytics;
 
-class FCM {
+class FA {
 
-    static getFCMToken() {
-        return FCMModule.getFCMToken();
+    static setUserId(userId) {
+        FIRAnalytics.setUserId(userId);
     }
 
-    static requestPermissions() {
-        return FCMModule.requestPermissions();
+    static setUserProperty(name, property) {
+        FIRAnalytics.setUserProperty(name, property);
     }
 
-    constructor(data) {
-        this.data = data;
+    static logEvent(name, parameters) {
+        FIRAnalytics.logEvent(name, parameters);
     }
 }
 
-module.exports = FCM;
+module.exports = FA;

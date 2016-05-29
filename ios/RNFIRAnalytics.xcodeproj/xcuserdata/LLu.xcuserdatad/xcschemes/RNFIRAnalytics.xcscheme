@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "58B511DA1A9E6C8500147676"
-               BuildableName = "libRNFCM.a"
+               BuildableName = "libRNFIRAnalytics.a"
                BlueprintName = "RNFIRAnalytics"
                ReferencedContainer = "container:RNFIRAnalytics.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58B511DA1A9E6C8500147676"
-            BuildableName = "libRNFCM.a"
+            BuildableName = "libRNFIRAnalytics.a"
             BlueprintName = "RNFIRAnalytics"
             ReferencedContainer = "container:RNFIRAnalytics.xcodeproj">
          </BuildableReference>
@@ -55,7 +55,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58B511DA1A9E6C8500147676"
-            BuildableName = "libRNFCM.a"
+            BuildableName = "libRNFIRAnalytics.a"
             BlueprintName = "RNFIRAnalytics"
             ReferencedContainer = "container:RNFIRAnalytics.xcodeproj">
          </BuildableReference>
@@ -73,7 +73,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58B511DA1A9E6C8500147676"
-            BuildableName = "libRNFCM.a"
+            BuildableName = "libRNFIRAnalytics.a"
             BlueprintName = "RNFIRAnalytics"
             ReferencedContainer = "container:RNFIRAnalytics.xcodeproj">
          </BuildableReference>
