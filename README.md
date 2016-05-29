@@ -23,7 +23,7 @@ apply plugin: 'com.google.gms.google-services' // <- Add this line
 
 ### IOS Configuration
 
-install pod 'Firebase/Messaging'
+install pod 'Firebase/Core'
 
 in AppDelegate.m add
 ```
