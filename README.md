@@ -58,3 +58,5 @@ componentWillMount() {
 
 For more info regarding predefind event and params, visit [firebase api](https://firebase.google.com/docs/reference/android/com/google/firebase/analytics/FirebaseAnalytics.Event#constant-summary)
 
+### Got Issues?
+Issues and pull requests are welcomed!
