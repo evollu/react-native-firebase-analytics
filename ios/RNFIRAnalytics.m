@@ -37,4 +37,9 @@ RCT_EXPORT_METHOD(logEvent: (NSString*)name property: (NSDictionary*)parameters)
   [FIRAnalytics logEventWithName:name parameters:parameters];
 }
 
+RCT_EXPORT_METHOD(enabled: (BOOL)isEnabled)
+{
+  [[FIRAnalyticsConfiguration sharedInstance] setAnalyticsCollectionEnabled:isEnabled];
+}
+
 @end
