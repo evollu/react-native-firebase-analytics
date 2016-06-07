@@ -19,8 +19,8 @@ class FA {
         FIRAnalytics.logEvent(name, parameters);
     }
 
-    static enabled(isEnabled) {
-        FIRAnalytics.enabled(isEnabled);
+    static setEnabled(enabled) {
+        FIRAnalytics.setEnabled(enabled);
     }
 }
 

@@ -42,8 +42,8 @@ public class FIRAnalyticsModule extends ReactContextBaseJavaModule implements Li
     }
 
     @ReactMethod
-    public void enabled(Boolean isEnabled) {
-        FirebaseAnalytics.getInstance(getCurrentActivity()).setAnalyticsCollectionEnabled(isEnabled);
+    public void setEnabled(Boolean enabled) {
+        FirebaseAnalytics.getInstance(getCurrentActivity()).setAnalyticsCollectionEnabled(enabled);
     }
 
     @Override

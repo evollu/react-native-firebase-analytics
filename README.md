@@ -50,7 +50,7 @@ var Analytics = require('react-native-firebase-analytics');
 
 componentWillMount() {
   if (environment === 'staging') {
-  	Analytics.enabled(false);
+  	Analytics.setEnabled(false);
   }
   
   Analytics.logEvent('view_item', {
