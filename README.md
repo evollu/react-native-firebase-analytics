@@ -2,7 +2,10 @@
 ## Installation
 
 - Run `npm install react-native-firebase-analytics --save`
-- Run rnpm link
+- Run `rnpm link`
+
+or you can combine them into 
+- Run `rnpm install react-native-firebase-analytics --save`
 
 ## Android Configuration
 
