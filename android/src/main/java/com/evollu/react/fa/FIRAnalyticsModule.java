@@ -28,22 +28,22 @@ public class FIRAnalyticsModule extends ReactContextBaseJavaModule implements Li
 
     @ReactMethod
     public void setUserId(String id){
-        FirebaseAnalytics.getInstance(getCurrentActivity()).setUserId(id);
+        FirebaseAnalytics.getInstance(getReactApplicationContext()).setUserId(id);
     }
 
     @ReactMethod
     public void setUserProperty(String name, String property) {
-        FirebaseAnalytics.getInstance(getCurrentActivity()).setUserProperty(name, property);
+        FirebaseAnalytics.getInstance(getReactApplicationContext()).setUserProperty(name, property);
     }
 
     @ReactMethod
     public void logEvent(String name, ReadableMap parameters) {
-        FirebaseAnalytics.getInstance(getCurrentActivity()).logEvent(name, Arguments.toBundle(parameters));
+        FirebaseAnalytics.getInstance(getReactApplicationContext()).logEvent(name, Arguments.toBundle(parameters));
     }
 
     @ReactMethod
     public void setEnabled(Boolean enabled) {
-        FirebaseAnalytics.getInstance(getCurrentActivity()).setAnalyticsCollectionEnabled(enabled);
+        FirebaseAnalytics.getInstance(getReactApplicationContext()).setAnalyticsCollectionEnabled(enabled);
     }
 
     @Override
