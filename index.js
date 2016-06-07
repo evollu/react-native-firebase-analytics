@@ -18,6 +18,10 @@ class FA {
     static logEvent(name, parameters) {
         FIRAnalytics.logEvent(name, parameters);
     }
+
+    static setEnabled(enabled) {
+        FIRAnalytics.setEnabled(enabled);
+    }
 }
 
 module.exports = FA;

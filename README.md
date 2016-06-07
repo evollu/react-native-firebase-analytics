@@ -49,11 +49,14 @@ In [firebase console](https://console.firebase.google.com/), you can get `google
 var Analytics = require('react-native-firebase-analytics');
 
 componentWillMount() {
+  if (environment === 'staging') {
+  	Analytics.setEnabled(false);
+  }
+  
   Analytics.logEvent('view_item', {
     'item_id': 'login'
   });
 }
-
 ```
 
 For more info regarding predefind event and params, visit [firebase api](https://firebase.google.com/docs/reference/android/com/google/firebase/analytics/FirebaseAnalytics.Event#constant-summary)

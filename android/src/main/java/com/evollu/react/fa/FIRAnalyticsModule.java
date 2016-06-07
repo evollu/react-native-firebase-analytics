@@ -41,6 +41,11 @@ public class FIRAnalyticsModule extends ReactContextBaseJavaModule implements Li
         FirebaseAnalytics.getInstance(getCurrentActivity()).logEvent(name, Arguments.toBundle(parameters));
     }
 
+    @ReactMethod
+    public void setEnabled(Boolean enabled) {
+        FirebaseAnalytics.getInstance(getCurrentActivity()).setAnalyticsCollectionEnabled(enabled);
+    }
+
     @Override
     public void onHostResume() {
     }
