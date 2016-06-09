@@ -47,14 +47,6 @@ in AppDelegate.m add
 
 }
 
-//add this method
-- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)notification fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))handler {
-  [[NSNotificationCenter defaultCenter] postNotificationName:FCMNotificationReceived
-                                                      object:self
-                                                    userInfo:notification];
-  handler(UIBackgroundFetchResultNoData);
-}
-
 ```
 
 
