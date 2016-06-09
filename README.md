@@ -30,7 +30,7 @@ install pod 'Firebase/Core'
 
 in AppDelegate.m add
 ```
-#import "RNFIRMessaging.h"
+#import <Firebase.h>
 ...
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -38,12 +38,6 @@ in AppDelegate.m add
 ....
 [FIRApp configure]; <-- add this line
 }
-
-//add this method
-- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)notification {
-  [[NSNotificationCenter defaultCenter] postNotificationName: FCMNotificationReceived
-                                                      object:self
-                                                    userInfo:notification];
 
 }
 
