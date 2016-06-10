@@ -4,7 +4,7 @@
 - Run `npm install react-native-firebase-analytics --save`
 - Run `rnpm link`
 
-or you can combine them into 
+or you can combine them into
 - Run `rnpm install react-native-firebase-analytics --save`
 
 ## Android Configuration
@@ -30,13 +30,13 @@ install pod 'Firebase/Core'
 
 in AppDelegate.m add
 ```
-#import <Firebase.h>
+#import <Firebase.h> // <-- add this line
 ...
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 ....
-[FIRApp configure]; <-- add this line
+[FIRApp configure]; // <-- add this line
 }
 
 }
@@ -55,9 +55,9 @@ var Analytics = require('react-native-firebase-analytics');
 
 componentWillMount() {
   if (environment === 'staging') {
-  	Analytics.setEnabled(false);
+    Analytics.setEnabled(false);
   }
-  
+
   Analytics.logEvent('view_item', {
     'item_id': 'login'
   });
