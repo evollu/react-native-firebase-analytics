@@ -57,10 +57,15 @@ componentWillMount() {
   if (environment === 'staging') {
     Analytics.setEnabled(false);
   }
+  
+  
+  Analytics.setUserId('11111');
+  Analytics.setUserProperty('propertyName', 'propertyValue');
 
   Analytics.logEvent('view_item', {
     'item_id': 'login'
   });
+   
 }
 ```
 
