@@ -1,3 +1,4 @@
+[![Gitter](https://badges.gitter.im/evollu/react-native-firebase-analytics.svg)](https://gitter.im/evollu/react-native-firebase-analytics?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## Installation
 
