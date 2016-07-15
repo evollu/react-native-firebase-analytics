@@ -6,7 +6,7 @@
 - Run `rnpm link`
 
 or you can combine them into
-- Run `rnpm install react-native-firebase-analytics --save`
+- Run `rnpm install react-native-firebase-analytics`
 
 ## Android Configuration
 
@@ -58,15 +58,15 @@ componentWillMount() {
   if (environment === 'staging') {
     Analytics.setEnabled(false);
   }
-  
-  
+
+
   Analytics.setUserId('11111');
   Analytics.setUserProperty('propertyName', 'propertyValue');
 
   Analytics.logEvent('view_item', {
     'item_id': 'login'
   });
-   
+
 }
 ```
 
