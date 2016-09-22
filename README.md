@@ -36,7 +36,7 @@ in AppDelegate.m add
  - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 ....
-+ [FIRApp configure]; // <-- add this line
++ [FIRApp configure];
 }
 
 }
