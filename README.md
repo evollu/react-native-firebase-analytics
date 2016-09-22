@@ -30,14 +30,13 @@ apply plugin: 'com.google.gms.google-services' // <- Add this line
 install pod 'Firebase/Core'
 
 in AppDelegate.m add
-```
-#import <Firebase.h> // <-- add this line
+```diff
 ...
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 ....
-[FIRApp configure]; // <-- add this line
++ [FIRApp configure]; // <-- add this line
 }
 
 }
