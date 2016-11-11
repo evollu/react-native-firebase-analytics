@@ -19,6 +19,10 @@ class FA {
         FIRAnalytics.logEvent(name, parameters);
     }
 
+    static setScreenName(name) {
+        FIRAnalytics.setScreenName(name);
+    }
+
     static setEnabled(enabled) {
         FIRAnalytics.setEnabled(enabled);
     }
