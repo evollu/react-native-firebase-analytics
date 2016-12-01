@@ -8,7 +8,9 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.google.firebase.analytics.FirebaseAnalytics;
 
+import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 
 import java.util.Iterator;
 
