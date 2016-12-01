@@ -42,6 +42,11 @@ public class FIRAnalyticsModule extends ReactContextBaseJavaModule implements Li
     }
 
     @ReactMethod
+    public void setScreenName(String name) {
+        FirebaseAnalytics.getInstance(getReactApplicationContext()).setScreenName(name);
+    }
+
+    @ReactMethod
     public void setEnabled(Boolean enabled) {
         FirebaseAnalytics.getInstance(getReactApplicationContext()).setAnalyticsCollectionEnabled(enabled);
     }
