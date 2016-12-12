@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/evollu/react-native-firebase-analytics/issues"
   },
+  "main" : "index.js"
   "homepage": "https://github.com/evollu/react-native-firebase-analytics"
 }
