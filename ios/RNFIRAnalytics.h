@@ -1,8 +1,7 @@
 
 #import <UIKit/UIKit.h>
-
+#import <React/RCTBridgeModule.h>
 @import FirebaseAnalytics;
-#import "RCTBridgeModule.h"
 
 @interface RNFIRAnalytics : NSObject <RCTBridgeModule>
 
