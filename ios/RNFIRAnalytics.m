@@ -1,11 +1,6 @@
 #import "RNFIRAnalytics.h"
 @import FirebaseAnalytics;
 
-#import "RCTBridge.h"
-#import "RCTConvert.h"
-#import "RCTEventDispatcher.h"
-#import "RCTUtils.h"
-
 @implementation RNFIRAnalytics
 
 RCT_EXPORT_MODULE()
