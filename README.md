@@ -1,5 +1,11 @@
 [![Gitter](https://badges.gitter.im/evollu/react-native-firebase-analytics.svg)](https://gitter.im/evollu/react-native-firebase-analytics?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+## Version table
+| version | RN        | FCM     |
+| ------- |:----------|:-------:|
+| 2.0.0   | >= 0.40.0 |latest   |
+| 1.0.6   | <0.40.0   |latest   |
+
 ## Installation
 
 - Run `npm install react-native-firebase-analytics --save`
