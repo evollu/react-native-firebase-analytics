@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/evollu/react-native-firebase-analytics.git"
   },
+  "peerDependencies": {
+    "react-native": ">=0.40.0"
+  },
   "keywords": [
     "React-Native",
     "ios",
