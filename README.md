@@ -37,6 +37,8 @@ install pod 'Firebase/Core'
 
 in AppDelegate.m add
 ```diff
++@import Firebase;
+
 ...
 
  - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
