@@ -8,6 +8,8 @@
 
 ## Installation
 
+[![Join the chat at https://gitter.im/evollu/react-native-firebase-analytics](https://badges.gitter.im/evollu/react-native-firebase-analytics.svg)](https://gitter.im/evollu/react-native-firebase-analytics?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 - Run `npm install react-native-firebase-analytics --save`
 - Run `rnpm link`
 
