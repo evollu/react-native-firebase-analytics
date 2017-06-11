@@ -44,10 +44,15 @@ public class FIRAnalyticsModule extends ReactContextBaseJavaModule implements Li
     }
 
     @ReactMethod
-    public void setScreenName(String name) {
-        Activity currentActivity = getCurrentActivity();
+    public void setScreenName(final String name) {
+        final Activity currentActivity = getCurrentActivity();
         if(currentActivity != null){
-            FirebaseAnalytics.getInstance(getReactApplicationContext()).setCurrentScreen(currentActivity, name, null);
+            currentActivity.runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    FirebaseAnalytics.getInstance(getReactApplicationContext()).setCurrentScreen(currentActivity, name, null);
+                }
+            });
         } else {
             Log.e(TAG, "Set screen name " + name + "failed because current activity is null");
         }
