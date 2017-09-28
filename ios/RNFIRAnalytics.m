@@ -34,9 +34,7 @@ RCT_EXPORT_METHOD(logEvent: (NSString*)name property: (NSDictionary*)parameters)
 
 RCT_EXPORT_METHOD(setScreenName: (NSString*)name)
 {
-  dispatch_async(dispatch_get_main_queue(), ^{
-    [FIRAnalytics setScreenName:name screenClass:nil];
-  });
+  [FIRAnalytics setScreenName:name screenClass:nil];
 }
 
 RCT_EXPORT_METHOD(setEnabled: (BOOL)enabled)
