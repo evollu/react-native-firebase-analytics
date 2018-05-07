@@ -12,11 +12,6 @@ RCT_EXPORT_MODULE()
     return YES;
 }
 
-- (NSDictionary<NSString *, id> *)constantsToExport
-{
-  return nil;
-}
-
 - (void)dealloc
 {
   [[NSNotificationCenter defaultCenter] removeObserver:self];
