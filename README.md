@@ -1,7 +1,7 @@
 [![Gitter](https://badges.gitter.im/evollu/react-native-firebase-analytics.svg)](https://gitter.im/evollu/react-native-firebase-analytics?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # DEPRECATED
-**This repo is no longer maintained. Please refer to react-native-firebase as replacement.**
+**This repo is no longer maintained. Please refer to [react-native-firebase](https://github.com/invertase/react-native-firebase) as replacement.**
 
 ## Version table
 | version | RN        | FCM     |
